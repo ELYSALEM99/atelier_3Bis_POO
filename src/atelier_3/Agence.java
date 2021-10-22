@@ -30,7 +30,7 @@ public class Agence {
     }
     public void afficher() {
     	System.out.println(Nom+" "+nbApp+" appartements");
-    	System.out.println("LISTE DES APPARTEMENTS");
+    	System.out.println("LISTE DES APPARTEMENTS ");
     	for(Appartement e:appartements) 
     	{
     		System.out.println(e);
